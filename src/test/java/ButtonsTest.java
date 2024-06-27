@@ -30,7 +30,7 @@ public class ButtonsTest {
 
 
     @BeforeAll
-    @DisplayName("Настройки перед каждым тестом")
+    @DisplayName("Настройки перед каждым новым тестом")
     static void setup() {
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
